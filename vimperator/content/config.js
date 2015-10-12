@@ -302,7 +302,7 @@ const Config = Module("config", ConfigBase, {
     modes: function () {
         this.ignoreKeys = {
             "<Return>": modes.NORMAL | modes.INSERT,
-            "<Space>": modes.NORMAL | modes.INSERT,
+            "<Space>": modes.INSERT,
             "<Up>": modes.NORMAL | modes.INSERT,
             "<Down>": modes.NORMAL | modes.INSERT
         };
